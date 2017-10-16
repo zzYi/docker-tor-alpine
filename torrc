@@ -1,0 +1,6 @@
+UseBridges 1
+Bridge meek 0.0.2.0:2 url=https://d2cly7j4zqgua7.cloudfront.net/ front=a0.awsstatic.com
+Bridge meek 78.46.186.250:37564 B9E7141C594AF25699E0079C1F0146F409495296
+ClientTransportPlugin meek exec /usr/bin/meek-client 
+SocksPort 0.0.0.0:9050
+ExitPolicy reject *:* 
