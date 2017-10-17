@@ -1,6 +1,0 @@
-[submodule "meek"]
-	path = meek
-	url = git@github.com:arlolra/meek.git
-[submodule "goptlib"]
-	path = goptlib
-	url = git@github.com:Yawning/goptlib.git
