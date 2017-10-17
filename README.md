@@ -1,6 +1,10 @@
 # docker-tor-alpine
 tor with meek.it still has some warning,help me make it better
 
+meek git from https://github.com/arlolra/meek
+
+goptlib git from https://github.com/Yawning/goptlib/
+
 ## Start
 build docker 
 
