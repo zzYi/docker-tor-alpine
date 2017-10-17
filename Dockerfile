@@ -7,7 +7,7 @@ RUN echo "https://mirrors.tuna.tsinghua.edu.cn/alpine/v3.6/main" > /etc/apk/repo
 
 RUN apk add --no-cache tor go libc-dev git
 
-ADD meek/ /tor/meek-client/
+ADD meek/meek-client/ /tor/meek-client/
 ADD goptlib/ /root/go/src/git.torproject.org/pluggable-transports/goptlib.git/
 ADD torrc /etc/tor/
 
